@@ -1,0 +1,44 @@
+#searchwell {
+  width : 170px;
+}
+
+#searchwell .unselected {
+  padding-left: 18px;
+  padding-top: 1px;
+  margin-top: 5px;
+  background-image: url("http://labs.google.com/ridefinder/images/mm_20_yellow.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.unselected .gs-watermark {
+  display: none;
+}
+
+.unselected .gs-directions {
+  display: none;
+}
+
+.unselected .gs-directions-to-from {
+  display: none;
+}
+
+.unselected .select {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #7777cc;
+}
+
+#searchwell .red {
+  background-image: url("http://labs.google.com/ridefinder/images/mm_20_red.png");
+}
+
+
+.gs-result .gs-title, .gs-result .gs-title *{
+	color: #000000;
+    font: bold 11px/15px Arial,Helvetica,sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}

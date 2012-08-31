@@ -1,0 +1,15 @@
+#js_upload_image_holder_frame
+{
+	 position: absolute; 
+	 z-index:999; 
+	 border: 1px solid black;
+	 padding: 10px;
+	 left: 300px;
+	 top: 250px;
+	 display: none;
+}
+
+#upload_ad_iframe
+{
+	display: none;
+}

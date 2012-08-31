@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main_real_estate_container{
+	padding:20px;
+}
+.table_left_custom {
+	position:static;
+}
+
+.table_right_custom {
+	margin-left:180px;
+	margin-top:-24px;
+}
+.textbox_style_large {
+	width:370px;	
+}
+.textbox_style_medium {
+	width:230px;	
+}
+
+.textbox_style_small {
+	width:120px;	
+}
+.dropdown_style_small {
+	width:20px;	
+}
+.table_clear_custom {
+	padding-top:40px;
+	text-align:center;	
+}
+.item_is_active_holder_custom {
+	width:200px;
+	height:38px;
+}
+.item_is_active_custom {
+	width:100px;	
+}
+.item_is_not_active_custom {
+	width:100px;
+	margin-left:100px;
+}
+
+#rent_div{
+	display:none;
+}
+
+#sale_div{
+	display:none;
+}
+
+/*#map, #map2 {
+	width: 800px;
+	height: 400px;
+	float: left;
+	margin: 0 5px;
+}
+
+.my-marker {
+	background: transparent;
+	border: 2px dashed red; 
+	width: 40px;
+	height: 40px;
+	-moz-border-radius: 20px;
+}*/
+
+/*------------------------------------------------------------------------------
+	IMAGE UPLOADER CSS -------------------
+-------------------------------------------------------------------------------*/
+#upload{
+	margin:30px 200px; padding:15px;
+	font-weight:bold; font-size:1.3em;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	background:#f2f2f2;
+	color:#3366cc;
+	border:1px solid #ccc;
+	width:150px;
+	cursor:pointer !important;
+	-moz-border-radius:5px; -webkit-border-radius:5px;
+}
+.darkbg{
+	background:#ddd !important;
+}
+#status{
+	font-family:Arial; padding:5px;
+}
+ul#files{ list-style:none; padding:0; margin:0; }
+
+ul#files li{ 
+	padding:0px; 
+	/*margin-bottom:2px; */
+	width:60px; 
+	height:60px;
+	float:left; 
+	margin-bottom:20px;
+	margin-right:20px;
+}
+
+ul#files li img{ max-width:180px; max-height:150px; }
+
+.success{ 
+	background:#FFF; 
+	border:1px solid #CCC;
+}
+
+.error{ background:#f0c6c3; border:1px solid #cc6622; }
+
+.cross{
+	width: 16px;
+	height: 16px;
+	position:absolute;
+	margin: -6px 0 0 48px;
+	cursor: pointer;
+	background: url(../../../image/remove.png) center center no-repeat;
+}
+/*------------------------------------------------------------------------------
+		----------------------------IMAGE UPLOADER CSS
+-------------------------------------------------------------------------------*/
+
+/* Image gallery */
+
+/* Image gallery */
+
+
+/* New Google V3 Map */
+
+/*
+#map_canvas  
+{
+	margin: 0;
+	padding: 0;
+	height: 311px;
+	width: 480px;
+}
+*/
+
+#map_canvas {
+  height: 100%;
+}
+
+#map_canvas {
+height: 311px;
+width: 480px;
+}
+
+#mapCanvas{
+	width:980px;
+	height:320px;
+	margin-bottom:10px;
+	margin:10px;
+	-webkit-box-shadow: 0px 0px 5px  #002426;
+	-moz-box-shadow: 0px 0px 5px  #002426;
+	box-shadow: 0px 0px 5px   #002426; 
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+
+/* New Google V3 Map */
+
+
+
+
+
+
